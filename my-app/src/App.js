@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Hello from './mycomponents/Hello';
 
 function App() {
   return (
     <div className="App">
-     <h1>{2+3+5}</h1>
+     <Hello></Hello>
     </div>
   );
 }
