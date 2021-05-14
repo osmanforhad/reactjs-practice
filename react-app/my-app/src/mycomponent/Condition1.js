@@ -7,16 +7,18 @@ class Condition1 extends Component{
         super()
 
         this.state={
-            login:true
+            login:false
         }
     }
 
     render(){
-        if(this.state.login==true){
-            return (<button>Logout Button</button>)
-        }else{
-            return (<button>Login Now</button>)
-        }
+        return(
+            this.state.login?(
+            <h1>I am First</h1>
+            )  : (
+                <h1>I am Second</h1>
+            )
+        );
     }
 }
 
