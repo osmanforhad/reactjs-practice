@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Refresh from './mycomponent/Refresh';
+import Newdemo from './mycomponent/Newdemo';
 
 function App() {
   return (
     <div className="App">
      
-      <Refresh></Refresh>
+      <Newdemo/>
       
     </div>
   );
