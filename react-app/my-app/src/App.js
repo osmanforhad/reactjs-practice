@@ -1,15 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Newdemo from './mycomponent/Newdemo';
-import Anotherdemo from './mycomponent/Anotherdemo';
+import Form from './mycomponent/Form';
 
 function App() {
   return (
     <div className="App">
      
-      <Newdemo/>
-
-      <Anotherdemo/>
+      <Form/>
       
     </div>
   );
