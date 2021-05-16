@@ -15,10 +15,14 @@ class Form extends Component {
        this.setState({[myname]:myvalue})
     }
 
+    onSubmitHandler=()=>{
+        alert(this.state.username);
+    }
+
     render() {
         return (
             <div>
-                <form>
+                <form onSubmit={this.onSubmitHandler}>
                     <p>My First Form</p>
                     <p>{this.state.username}</p>
                     <input name="username" onChange={this.onChangeHandler} type="text" placeholder="Your Name"></input>
